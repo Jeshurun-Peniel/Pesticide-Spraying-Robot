@@ -35,7 +35,7 @@ void setup() {
   
   // Initialize relay pin
   pinMode(relayPin, OUTPUT);
-  digitalWrite(relayPin, LOW); // Start with relay off
+  digitalWrite(relayPin, HIGH); // Start with relay off
 
   // Initialize radio
   radio.begin();
